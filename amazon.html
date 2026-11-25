@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="amazon.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+.amazon{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid grey;
+    overflow-y: auto;
+    border: 1px solid grey;
+}
+nav{
+    height: fit-content;
+    width:100vw;
+    background-color: #131921;
+    display: flex;
+}
+nav .logo{
+    margin-left: 1%;
+}
+.lock{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+}
+nav .location{
+    margin-left: 10%;
+}
+.all{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 30px;
+    height: 32px;
+    margin-top: 9px;
+    color: grey;
+    font-size: 12px;
+    margin-left: 2%;
+    padding-left: 5px;
+    border-radius: 5px 0 0 5px;
+    
+}
+nav input{
+    margin-top: 8px;
+    height: 30px;
+    width:38%;
+}
+nav .search{
+    margin-top: 9px;
+    background-color: rgb(247, 169, 26);
+    border-radius: 0 5px 5px 0;
+    height: fit-content;
+    padding: 2px;
+}
+.navend{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap:30px;
+    margin-left: 3%;
+}
+.cart{
+    display: flex;
+    align-items: end;
+}
+.main{
+    height:fit-content;
+    width: 100vw;
+    padding:5px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    background-color: #232F3E;
+    color: white;
+}
+.main h6{
+    align-items: end;
+}
+.lion{
+    margin-left: 7%;
+}
+.main span{
+    display:flex;
+    gap: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.products{
+    box-sizing: border-box;
+    background-image: url(background.png);
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}
+.productimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.product1{
+    height: fit-content;
+    width:22%;
+    padding:1%;
+    background-color: white;
+}
+.pro1img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.prolist{
+    margin-top:10%;
+    display: flex;
+    gap: 20px;
+    padding: 2%;
+}
+.proend{
+    height: fit-content;
+    width: 22%;
+}
+.proend1{
+    height: fit-content;
+    padding:2%;
+    background-color: white;
+}
+.proend1 button{
+    background-color: #FFD814;
+    color: #111111;
+    border: 1px solid #FCD200;
+    margin-top: 5%;
+    margin-left:2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.proend1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.proend img{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+    </style>
+</head>
+<body>
+    <div class="amazon">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <div class="lock">
+                <img src="location.png" alt="" height="30px" class="location">
+                <p>Hello</p><br>
+                <h4>Select your address</h4>
+            </div>
+            <div class="all">
+                <p>All</p>
+                <img src="down arrow.png" alt="">
+            </div>
+            <input type="text" >
+            <div class="search"><img src="search icon.png" alt=""></div>
+            <div class="navend">
+                <div class="flag"><img src="indian flag.png" alt="">
+                <img src="down arrow.png" alt="">
+                </div>
+                <div><h6>Hello,Sign in</h6><h4>Accounts & Lists <img src="down arrow.png" alt=""></h4></div>
+                <div><h6>Returns</h6><h4>& Orders</h4></div>
+                <div class="cart">       
+                    <img src="cart icon.png" alt="" height="30px"><p>Cart</p> 
+                </div>      
+            </div>
+        </nav>
+        <div class="main">
+            <img src="ham burger icon.png" alt="">
+            <p>All</p>
+            <p>Best Sellers</p>
+            <p>Mobiles</p>
+            <p>Customer Service</p>
+            <p>Today's Deals</p>
+            <p>Fashion</p>
+            <p>Electronics</p>
+            <p>Books</p>
+            <p>prime <img src="down arrow.png" alt=""></p>
+            <p>New Releases</p>
+            <p>Home&Kitchen</p>
+            <p>Amazon Pay</p>
+            <img src="lion.png" alt="" height="30px" class="lion">
+            <div class="mainend">
+                <h3>prime day</h3>
+                <span>
+                    <img src="amazon design.png" alt="">
+                    <h6>23-24July</h6>
+                </span>
+            </div>
+        </div>
+        <div class="products">
+            <div class="productimg">
+                <img src="left arrow.png" alt="">
+                <img src="right arrow.png" alt="">
+            </div>
+            <div class="prolist">
+                <div class="product1">
+                    <h2>Upgrade your home|Amazon<br>Brands & more</h2>
+                    <div class="pro1img">
+                        <figure><img src="image 17.png" alt="" width="140px"><figcaption>Smart LED TVs</figcaption></figure>
+                        <figure><img src="image 18.png" alt="" width="140px"><figcaption>Appliances</figcaption></figure>
+                        <figure><img src="image 20.png" alt="" width="140px"><figcaption>Furniture</figcaption></figure>
+                        <figure><img src="image 19.png" alt="" width="140px"><figcaption>Kitchen products</figcaption></figure>
+                    </div>
+                    <a href="">Show now</a>
+                </div>
+                <div class="product1">
+                    <h2>Revamp your home in style</h2>
+                    <div class="pro1img">
+                        <figure><img src="image 25.png" alt="" width="140px"><figcaption>Bedsheets,curtains &<br>more</figcaption></figure>
+                        <figure><img src="image 24.png" alt="" width="140px"><figcaption>Home decoration</figcaption></figure>
+                        <figure><img src="image 22.png" alt="" width="140px"><figcaption>Home storage</figcaption></figure>
+                        <figure><img src="image 21.png" alt="" width="140px"><figcaption>lighting solutions</figcaption></figure>
+                    </div>
+                    <a href="">Explore All</a>
+                </div>
+                <div class="product1">
+                    <h2>Up to 70% off|Clearance store</h2>
+                    <div class="pro1img">
+                        <figure><img src="image 26.png" alt="" width="300px"></figure>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+                <div class="proend">
+                    <div class="proend1">
+                        <h2>Sign in for your best<br> experience</h2>
+                        <button><a href="">Sign in securely</a></button>
+                    </div>
+                    <img src="image 28.png" alt="" width="280px">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html
